@@ -192,6 +192,17 @@ The project successfully demonstrated that Nmap reconnaissance leaves visible ar
 - Time-based visualizations clearly showed the scan burst pattern.
 - Event distribution charts helped distinguish connection closures from negotiation failures.
 - The dashboard provided a SOC-style monitoring view of reconnaissance behavior.
+## Skills Demonstrated
+
+- Splunk Cloud dashboard creation
+- Linux log analysis
+- SOC detection engineering
+- SPL query writing
+- Nmap reconnaissance simulation
+- SSH event analysis
+- Security monitoring and log correlation
+- Detection of suspicious source IP behavior
+  
 ### MITRE ATT&CK Mapping
 
 This project aligns with the following ATT&CK techniques:
