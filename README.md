@@ -166,22 +166,7 @@ index=main sourcetype="nmap scan logs"
 ### Dashboard 3 – Connection Closure Events
 
 ### Dashboard 4 – Recon Event Distribution
-## Attack Execution Screenshots
 
-### Ubuntu Log Monitoring
-This screenshot shows live log activity on the Ubuntu target while reconnaissance events were being generated.
-
-![Ubuntu Log Monitoring](live display of port scanning from kali linux.png)
-
-### Kali – Host Reachability and Initial Nmap Scan
-This screenshot shows the Kali attacker machine performing the target reachability check and a basic Nmap scan.
-
-![Kali Initial Scan](port scan on ubntu ip using nmap.png)
-
-### Kali – Repeated Nmap Reconnaissance Loop
-This screenshot shows the repeated Nmap scanning loop used to generate a larger detection footprint in the target logs.
-
-![Kali Recon Loop](port scan to ubuntu ip using nmap.png)
 ## Key Detection Findings
 
 The project successfully demonstrated that Nmap reconnaissance leaves visible artifacts in Linux authentication logs, especially when scanning exposed SSH services.
