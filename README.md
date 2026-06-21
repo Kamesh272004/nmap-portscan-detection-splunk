@@ -72,14 +72,13 @@ done
 ```
 # Ubuntu Target Log Telemetry
 
-The Ubuntu target machine generated multiple SSH-related log events during the Nmap scans. These logs were observed in /var/log/auth.log and later ingested into Splunk Cloud.
-
 The following categories of events were captured:
 
-SSH connection closure events
-SSH negotiation failures
-Repeated connection attempts from the attacker IP
-Protocol and host key negotiation issues caused during scan enumeration
+- SSH connection closure events
+- SSH negotiation failures
+- Repeated connection attempts from the attacker IP
+- Protocol / host key negotiation issues caused during scan enumeration
+  
 ### Connection Closure Signatures
 
 During repeated Nmap probing, the target logged SSH pre-authentication connection closures. These occur when the scanner initiates a connection to SSH and closes it before authentication completes.
@@ -189,12 +188,12 @@ The project successfully demonstrated that Nmap reconnaissance leaves visible ar
 - Security monitoring and log correlation
 - Detection of suspicious source IP behavior
   
-### MITRE ATT&CK Mapping
+## MITRE ATT&CK Mapping
 
 This project aligns with the following ATT&CK techniques:
 
-T1595 – Active Scanning
-T1046 – Network Service Discovery
+- **T1595 – Active Scanning**
+- **T1046 – Network Service Discovery**
 # Outcome
 
 This project demonstrates an end-to-end SOC detection workflow:
