@@ -192,6 +192,7 @@ The project successfully demonstrated that Nmap reconnaissance leaves visible ar
 - Time-based visualizations clearly showed the scan burst pattern.
 - Event distribution charts helped distinguish connection closures from negotiation failures.
 - The dashboard provided a SOC-style monitoring view of reconnaissance behavior.
+
 ## Skills Demonstrated
 
 - Splunk Cloud dashboard creation
