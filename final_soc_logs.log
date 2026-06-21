@@ -1,0 +1,579 @@
+2026-05-27T14:57:00.306300+00:00 kamesh passwd[854]: password for 'ubuntu' changed by 'root'
+2026-05-27T14:57:00.306791+00:00 kamesh systemd-logind[887]: New seat seat0.
+2026-05-27T14:57:00.306793+00:00 kamesh systemd-logind[887]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-27T14:57:00.306794+00:00 kamesh systemd-logind[887]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-27T14:57:00.306812+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T14:57:00.306814+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T14:57:00.306816+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 6 rules
+2026-05-27T14:57:00.306818+00:00 kamesh polkitd[878]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-27T14:57:07.793344+00:00 kamesh login[972]: PAM unable to dlopen(pam_lastlog.so): /usr/lib/security/pam_lastlog.so: cannot open shared object file: No such file or directory
+2026-05-27T14:57:07.793482+00:00 kamesh login[972]: PAM adding faulty module: pam_lastlog.so
+2026-05-27T14:57:11.905810+00:00 kamesh login[972]: pam_unix(login:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-27T14:57:11.936888+00:00 kamesh systemd-logind[887]: New session 1 of user ubuntu.
+2026-05-27T14:57:11.944919+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-27T14:57:50.718901+00:00 kamesh sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-05-27T14:57:50.719869+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-27T14:57:53.233894+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-27T14:58:13.811402+00:00 kamesh sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install ubuntu desktop
+2026-05-27T14:58:13.811822+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-27T14:58:14.216550+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-27T14:58:46.355111+00:00 kamesh sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install ubuntu-desktop
+2026-05-27T14:58:46.355331+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-27T15:01:09.086209+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:01:09.086290+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:01:09.086324+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:01:09.086393+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:01:09.087381+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 6 rules
+2026-05-27T15:01:09.087412+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:01:09.087426+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:01:09.087448+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:01:09.087465+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:01:09.088884+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 6 rules
+2026-05-27T15:01:38.527264+00:00 kamesh systemd-logind[887]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-27T15:01:38.529491+00:00 kamesh systemd-logind[887]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-27T15:05:01.990126+00:00 kamesh CRON[3530]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-27T15:05:01.992657+00:00 kamesh CRON[3530]: pam_unix(cron:session): session closed for user root
+2026-05-27T15:07:41.966211+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:41.966302+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:41.966316+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:41.966327+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:41.967225+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 7 rules
+2026-05-27T15:07:41.967257+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:41.967274+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:41.967301+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:41.967324+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:41.967983+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 7 rules
+2026-05-27T15:07:43.498795+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:43.498931+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:43.498955+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:43.498966+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:43.500133+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 8 rules
+2026-05-27T15:07:43.500178+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:43.500198+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:43.500207+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:43.500230+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:43.500962+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 8 rules
+2026-05-27T15:07:48.354544+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:48.354617+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:48.354639+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:48.354654+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:48.355822+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 9 rules
+2026-05-27T15:07:48.355861+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:48.355873+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:48.355892+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:48.355912+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:48.357156+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 9 rules
+2026-05-27T15:07:49.608911+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:49.608988+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:49.609005+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:49.609024+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:49.610320+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 10 rules
+2026-05-27T15:07:49.610359+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:49.610371+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:49.610380+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:49.610392+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:49.611781+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 10 rules
+2026-05-27T15:07:50.329194+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:50.329222+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:50.329234+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:50.329246+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:50.331039+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 11 rules
+2026-05-27T15:07:50.331060+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:50.331071+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:50.331081+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:50.331096+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:50.332462+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 11 rules
+2026-05-27T15:07:53.352193+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:53.352278+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:53.352303+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:53.352322+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:53.354051+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 12 rules
+2026-05-27T15:07:53.354085+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:07:53.354097+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:07:53.354107+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:07:53.354117+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:07:53.355610+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 12 rules
+2026-05-27T15:08:01.661195+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:01.661252+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:01.661266+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:01.661287+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:01.663106+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 13 rules
+2026-05-27T15:08:01.663206+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:01.663230+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:01.663241+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:01.663250+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:01.665426+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 13 rules
+2026-05-27T15:08:02.875097+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:02.875161+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:02.875172+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:02.875183+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:02.877179+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 14 rules
+2026-05-27T15:08:02.877206+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:02.877216+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:02.877226+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:02.877243+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:02.879080+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 14 rules
+2026-05-27T15:08:06.154617+00:00 kamesh useradd[16116]: new user: name=usbmux, UID=108, GID=46, home=/var/lib/usbmux, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:06.165755+00:00 kamesh chfn[16123]: changed user 'usbmux' information
+2026-05-27T15:08:09.333792+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:09.334979+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:09.335015+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:09.335034+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:09.336533+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 15 rules
+2026-05-27T15:08:09.336666+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:09.336696+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:09.336722+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:09.336748+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:09.338971+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 15 rules
+2026-05-27T15:08:10.121445+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:10.121555+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:10.121579+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:10.121596+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:10.124141+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 16 rules
+2026-05-27T15:08:10.124168+00:00 kamesh polkitd[878]: Reloading rules
+2026-05-27T15:08:10.124180+00:00 kamesh polkitd[878]: Collecting garbage unconditionally...
+2026-05-27T15:08:10.124188+00:00 kamesh polkitd[878]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:08:10.124205+00:00 kamesh polkitd[878]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:08:10.126285+00:00 kamesh polkitd[878]: Finished loading, compiling and executing 16 rules
+2026-05-27T15:08:13.574444+00:00 kamesh groupadd[16797]: group added to /etc/group: name=rtkit, GID=109
+2026-05-27T15:08:13.576712+00:00 kamesh groupadd[16797]: group added to /etc/gshadow: name=rtkit
+2026-05-27T15:08:13.577349+00:00 kamesh groupadd[16797]: new group: name=rtkit, GID=109
+2026-05-27T15:08:13.583452+00:00 kamesh useradd[16804]: new user: name=rtkit, UID=109, GID=109, home=/proc, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:13.593877+00:00 kamesh chfn[16811]: changed user 'rtkit' information
+2026-05-27T15:08:15.883483+00:00 kamesh useradd[17204]: new user: name=dnsmasq, UID=999, GID=65534, home=/var/lib/misc, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:16.821681+00:00 kamesh groupadd[17290]: group added to /etc/group: name=ssl-cert, GID=110
+2026-05-27T15:08:16.823888+00:00 kamesh groupadd[17290]: group added to /etc/gshadow: name=ssl-cert
+2026-05-27T15:08:16.824605+00:00 kamesh groupadd[17290]: new group: name=ssl-cert, GID=110
+2026-05-27T15:08:17.663744+00:00 kamesh useradd[17408]: new user: name=kernoops, UID=110, GID=65534, home=/, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:17.673595+00:00 kamesh chfn[17415]: changed user 'kernoops' information
+2026-05-27T15:08:24.488596+00:00 kamesh groupadd[18365]: group added to /etc/group: name=whoopsie, GID=111
+2026-05-27T15:08:24.490132+00:00 kamesh groupadd[18365]: group added to /etc/gshadow: name=whoopsie
+2026-05-27T15:08:24.490836+00:00 kamesh groupadd[18365]: new group: name=whoopsie, GID=111
+2026-05-27T15:08:24.496664+00:00 kamesh useradd[18372]: new user: name=whoopsie, UID=111, GID=111, home=/nonexistent, shell=/bin/false, from=/dev/pts/1
+2026-05-27T15:08:25.475305+00:00 kamesh groupadd[18557]: group added to /etc/group: name=netdev, GID=112
+2026-05-27T15:08:25.476921+00:00 kamesh groupadd[18557]: group added to /etc/gshadow: name=netdev
+2026-05-27T15:08:25.477641+00:00 kamesh groupadd[18557]: new group: name=netdev, GID=112
+2026-05-27T15:08:29.817547+00:00 kamesh groupadd[19507]: group added to /etc/group: name=tss, GID=113
+2026-05-27T15:08:29.818750+00:00 kamesh groupadd[19507]: group added to /etc/gshadow: name=tss
+2026-05-27T15:08:29.819431+00:00 kamesh groupadd[19507]: new group: name=tss, GID=113
+2026-05-27T15:08:29.858454+00:00 kamesh useradd[19518]: new user: name=tss, UID=112, GID=113, home=/var/lib/tpm, shell=/bin/false, from=/dev/pts/1
+2026-05-27T15:08:29.869308+00:00 kamesh chfn[19525]: changed user 'tss' information
+2026-05-27T15:08:31.995978+00:00 kamesh groupadd[20090]: group added to /etc/group: name=scanner, GID=114
+2026-05-27T15:08:31.997658+00:00 kamesh groupadd[20090]: group added to /etc/gshadow: name=scanner
+2026-05-27T15:08:31.998326+00:00 kamesh groupadd[20090]: new group: name=scanner, GID=114
+2026-05-27T15:08:32.207332+00:00 kamesh groupadd[20138]: group added to /etc/group: name=bluetooth, GID=115
+2026-05-27T15:08:32.209173+00:00 kamesh groupadd[20138]: group added to /etc/gshadow: name=bluetooth
+2026-05-27T15:08:32.209887+00:00 kamesh groupadd[20138]: new group: name=bluetooth, GID=115
+2026-05-27T15:08:32.801676+00:00 kamesh groupadd[20316]: group added to /etc/group: name=avahi, GID=116
+2026-05-27T15:08:32.803151+00:00 kamesh groupadd[20316]: group added to /etc/gshadow: name=avahi
+2026-05-27T15:08:32.803932+00:00 kamesh groupadd[20316]: new group: name=avahi, GID=116
+2026-05-27T15:08:32.810323+00:00 kamesh useradd[20323]: new user: name=avahi, UID=113, GID=116, home=/run/avahi-daemon, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:32.820259+00:00 kamesh chfn[20330]: changed user 'avahi' information
+2026-05-27T15:08:33.393200+00:00 kamesh groupadd[20472]: group added to /etc/group: name=saned, GID=117
+2026-05-27T15:08:33.394686+00:00 kamesh groupadd[20472]: group added to /etc/gshadow: name=saned
+2026-05-27T15:08:33.395317+00:00 kamesh groupadd[20472]: new group: name=saned, GID=117
+2026-05-27T15:08:33.401846+00:00 kamesh useradd[20479]: new user: name=saned, UID=114, GID=117, home=/var/lib/saned, shell=/usr/sbin/nologin, from=none
+2026-05-27T15:08:33.432303+00:00 kamesh usermod[20489]: add 'saned' to group 'scanner'
+2026-05-27T15:08:33.432342+00:00 kamesh usermod[20489]: add 'saned' to shadow group 'scanner'
+2026-05-27T15:08:33.973329+00:00 kamesh groupadd[20639]: group added to /etc/group: name=nm-openvpn, GID=118
+2026-05-27T15:08:33.974846+00:00 kamesh groupadd[20639]: group added to /etc/gshadow: name=nm-openvpn
+2026-05-27T15:08:33.975613+00:00 kamesh groupadd[20639]: new group: name=nm-openvpn, GID=118
+2026-05-27T15:08:33.982047+00:00 kamesh useradd[20646]: new user: name=nm-openvpn, UID=115, GID=118, home=/var/lib/openvpn/chroot, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:33.992241+00:00 kamesh chfn[20653]: changed user 'nm-openvpn' information
+2026-05-27T15:08:34.330890+00:00 kamesh groupadd[20726]: group added to /etc/group: name=colord, GID=119
+2026-05-27T15:08:34.332121+00:00 kamesh groupadd[20726]: group added to /etc/gshadow: name=colord
+2026-05-27T15:08:34.332981+00:00 kamesh groupadd[20726]: new group: name=colord, GID=119
+2026-05-27T15:08:34.347352+00:00 kamesh useradd[20733]: new user: name=colord, UID=116, GID=119, home=/var/lib/colord, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:34.357338+00:00 kamesh chfn[20740]: changed user 'colord' information
+2026-05-27T15:08:34.591577+00:00 kamesh groupadd[20824]: group added to /etc/group: name=sssd, GID=120
+2026-05-27T15:08:34.592951+00:00 kamesh groupadd[20824]: group added to /etc/gshadow: name=sssd
+2026-05-27T15:08:34.593647+00:00 kamesh groupadd[20824]: new group: name=sssd, GID=120
+2026-05-27T15:08:34.599920+00:00 kamesh useradd[20831]: new user: name=sssd, UID=117, GID=120, home=/var/lib/sss, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:34.609762+00:00 kamesh chfn[20838]: changed user 'sssd' information
+2026-05-27T15:08:35.738161+00:00 kamesh groupadd[21072]: group added to /etc/group: name=lpadmin, GID=121
+2026-05-27T15:08:35.739945+00:00 kamesh groupadd[21072]: group added to /etc/gshadow: name=lpadmin
+2026-05-27T15:08:35.740696+00:00 kamesh groupadd[21072]: new group: name=lpadmin, GID=121
+2026-05-27T15:08:35.798085+00:00 kamesh useradd[21084]: new user: name=speech-dispatcher, UID=118, GID=29, home=/run/speech-dispatcher, shell=/bin/false, from=/dev/pts/1
+2026-05-27T15:08:35.808208+00:00 kamesh chfn[21091]: changed user 'speech-dispatcher' information
+2026-05-27T15:08:39.529981+00:00 kamesh useradd[22041]: new user: name=cups-pk-helper, UID=119, GID=121, home=/nonexistent, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:39.542377+00:00 kamesh chfn[22048]: changed user 'cups-pk-helper' information
+2026-05-27T15:08:51.575960+00:00 kamesh groupadd[30226]: group added to /etc/group: name=geoclue, GID=122
+2026-05-27T15:08:51.577327+00:00 kamesh groupadd[30226]: group added to /etc/gshadow: name=geoclue
+2026-05-27T15:08:51.578114+00:00 kamesh groupadd[30226]: new group: name=geoclue, GID=122
+2026-05-27T15:08:51.611818+00:00 kamesh useradd[30237]: new user: name=geoclue, UID=120, GID=122, home=/var/lib/geoclue, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:55.443607+00:00 kamesh useradd[30556]: new user: name=cups-browsed, UID=121, GID=121, home=/nonexistent, shell=/usr/sbin/nologin, from=/dev/pts/1
+2026-05-27T15:08:58.643950+00:00 kamesh groupadd[31006]: group added to /etc/group: name=pipewire, GID=123
+2026-05-27T15:08:58.645337+00:00 kamesh groupadd[31006]: group added to /etc/gshadow: name=pipewire
+2026-05-27T15:08:58.646047+00:00 kamesh groupadd[31006]: new group: name=pipewire, GID=123
+2026-05-27T15:08:58.863376+00:00 kamesh useradd[31033]: new user: name=hplip, UID=122, GID=7, home=/run/hplip, shell=/bin/false, from=/dev/pts/1
+2026-05-27T15:08:58.874042+00:00 kamesh chfn[31040]: changed user 'hplip' information
+2026-05-27T15:08:59.975259+00:00 kamesh useradd[31306]: new user: name=gnome-initial-setup, UID=123, GID=65534, home=/run/gnome-initial-setup/, shell=/bin/false, from=/dev/pts/1
+2026-05-27T15:09:00.085369+00:00 kamesh groupadd[31331]: group added to /etc/group: name=gdm, GID=124
+2026-05-27T15:09:00.086795+00:00 kamesh groupadd[31331]: group added to /etc/gshadow: name=gdm
+2026-05-27T15:09:00.087619+00:00 kamesh groupadd[31331]: new group: name=gdm, GID=124
+2026-05-27T15:09:00.117020+00:00 kamesh useradd[31343]: new user: name=gdm, UID=124, GID=124, home=/var/lib/gdm3, shell=/bin/false, from=none
+2026-05-27T15:09:02.452035+00:00 kamesh polkitd[31788]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:09:02.452084+00:00 kamesh polkitd[31788]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:09:02.454819+00:00 kamesh polkitd[31788]: Finished loading, compiling and executing 16 rules
+2026-05-27T15:09:02.455539+00:00 kamesh polkitd[31788]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-27T15:09:03.258609+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-27T15:09:41.986766+00:00 kamesh sudo:   ubuntu : TTY=tty1 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/sbin/reboot now
+2026-05-27T15:09:41.987146+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-27T15:09:41.991775+00:00 kamesh systemd-logind[887]: The system will reboot now!
+2026-05-27T15:09:42.007923+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-27T15:09:42.021027+00:00 kamesh systemd-logind[887]: System is rebooting.
+2026-05-27T15:09:59.221502+00:00 kamesh systemd-logind[870]: New seat seat0.
+2026-05-27T15:09:59.221503+00:00 kamesh systemd-logind[870]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-27T15:09:59.221505+00:00 kamesh systemd-logind[870]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-27T15:09:59.240080+00:00 kamesh polkitd[844]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:09:59.240440+00:00 kamesh polkitd[844]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:09:59.259839+00:00 kamesh polkitd[844]: Finished loading, compiling and executing 16 rules
+2026-05-27T15:09:59.260866+00:00 kamesh polkitd[844]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-27T15:12:07.858838+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=124) by (uid=0)
+2026-05-27T15:12:07.894719+00:00 kamesh systemd-logind[870]: New session c1 of user gdm.
+2026-05-27T15:12:07.906087+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=124) by gdm(uid=0)
+2026-05-27T15:12:09.123080+00:00 kamesh polkitd[844]: Registered Authentication Agent for unix-session:c1 (system bus name :1.39 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-27T15:12:19.537235+00:00 kamesh gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-27T15:12:19.537446+00:00 kamesh gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-27T15:12:19.553564+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-27T15:12:19.568400+00:00 kamesh systemd-logind[870]: New session 2 of user ubuntu.
+2026-05-27T15:12:19.581221+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-27T15:12:19.699877+00:00 kamesh gdm-password]: gkr-pam: unlocked login keyring
+2026-05-27T15:12:19.960695+00:00 kamesh gnome-keyring-daemon[1735]: The Secret Service was already initialized
+2026-05-27T15:12:19.961279+00:00 kamesh gnome-keyring-daemon[1906]: discover_other_daemon: 1
+2026-05-27T15:12:19.961430+00:00 kamesh gnome-keyring-daemon[1735]: The PKCS#11 component was already initialized
+2026-05-27T15:12:19.961644+00:00 kamesh gnome-keyring-daemon[1909]: discover_other_daemon: 1
+2026-05-27T15:12:19.961722+00:00 kamesh gnome-keyring-daemon[1908]: discover_other_daemon: 1
+2026-05-27T15:12:20.868559+00:00 kamesh polkitd[844]: Registered Authentication Agent for unix-session:2 (system bus name :1.79 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-27T15:12:21.417309+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-27T15:12:21.422400+00:00 kamesh systemd-logind[870]: Session c1 logged out. Waiting for processes to exit.
+2026-05-27T15:12:21.434245+00:00 kamesh polkitd[844]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.39, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-27T15:12:21.440564+00:00 kamesh systemd-logind[870]: Removed session c1.
+2026-05-27T15:12:31.722525+00:00 kamesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-27T15:12:58.564184+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-05-27T15:12:58.565011+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-27T15:13:03.818322+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-27T15:13:23.365710+00:00 kamesh pkexec: pam_unix(polkit-1:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-27T15:13:23.366568+00:00 kamesh pkexec[3117]: ubuntu: Executing command [USER=root] [TTY=unknown] [CWD=/home/ubuntu] [COMMAND=/usr/lib/update-notifier/package-system-locked]
+2026-05-27T15:13:47.181481+00:00 kamesh polkitd[844]: Reloading rules
+2026-05-27T15:13:47.181619+00:00 kamesh polkitd[844]: Collecting garbage unconditionally...
+2026-05-27T15:13:47.181646+00:00 kamesh polkitd[844]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:13:47.181661+00:00 kamesh polkitd[844]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:13:47.184366+00:00 kamesh polkitd[844]: Finished loading, compiling and executing 16 rules
+2026-05-27T15:13:47.184386+00:00 kamesh polkitd[844]: Reloading rules
+2026-05-27T15:13:47.184396+00:00 kamesh polkitd[844]: Collecting garbage unconditionally...
+2026-05-27T15:13:47.184429+00:00 kamesh polkitd[844]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:13:47.184440+00:00 kamesh polkitd[844]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:13:47.186911+00:00 kamesh polkitd[844]: Finished loading, compiling and executing 16 rules
+2026-05-27T15:15:01.099373+00:00 kamesh CRON[15682]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-27T15:15:01.103263+00:00 kamesh CRON[15682]: pam_unix(cron:session): session closed for user root
+2026-05-27T15:15:18.689055+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install spice-vdagent spice-webdavd
+2026-05-27T15:15:18.692041+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-27T15:15:22.794317+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-27T15:16:30.048412+00:00 kamesh systemd-logind[870]: The system will power off now!
+2026-05-27T15:16:30.067722+00:00 kamesh systemd-logind[870]: System is powering down.
+2026-05-27T15:16:30.087303+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-05-27T15:19:00.743989+00:00 kamesh systemd-logind[848]: New seat seat0.
+2026-05-27T15:19:00.744839+00:00 kamesh systemd-logind[848]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-27T15:19:00.744870+00:00 kamesh systemd-logind[848]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-27T15:19:00.757181+00:00 kamesh polkitd[838]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-27T15:19:00.757829+00:00 kamesh polkitd[838]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-27T15:19:00.766815+00:00 kamesh polkitd[838]: Finished loading, compiling and executing 16 rules
+2026-05-27T15:19:00.767575+00:00 kamesh polkitd[838]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-27T15:21:11.222506+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=124) by (uid=0)
+2026-05-27T15:21:11.250553+00:00 kamesh systemd-logind[848]: New session c1 of user gdm.
+2026-05-27T15:21:11.261231+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=124) by gdm(uid=0)
+2026-05-27T15:21:12.415409+00:00 kamesh polkitd[838]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-27T15:22:22.338297+00:00 kamesh gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-27T15:22:22.338439+00:00 kamesh gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-27T15:22:22.352504+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-27T15:22:22.372226+00:00 kamesh systemd-logind[848]: New session 2 of user ubuntu.
+2026-05-27T15:22:22.383093+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-27T15:22:22.505354+00:00 kamesh gdm-password]: gkr-pam: unlocked login keyring
+2026-05-27T15:22:22.680824+00:00 kamesh gnome-keyring-daemon[1859]: discover_other_daemon: 1
+2026-05-27T15:22:22.681068+00:00 kamesh gnome-keyring-daemon[1711]: The Secret Service was already initialized
+2026-05-27T15:22:22.681145+00:00 kamesh gnome-keyring-daemon[1711]: The PKCS#11 component was already initialized
+2026-05-27T15:22:22.681157+00:00 kamesh gnome-keyring-daemon[1861]: discover_other_daemon: 1
+2026-05-27T15:22:22.681172+00:00 kamesh gnome-keyring-daemon[1862]: discover_other_daemon: 1
+2026-05-27T15:22:23.548760+00:00 kamesh polkitd[838]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-27T15:22:24.070899+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-27T15:22:24.082896+00:00 kamesh systemd-logind[848]: Session c1 logged out. Waiting for processes to exit.
+2026-05-27T15:22:24.127662+00:00 kamesh polkitd[838]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-27T15:22:24.134535+00:00 kamesh systemd-logind[848]: Removed session c1.
+2026-05-27T15:22:34.278947+00:00 kamesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-27T15:23:54.965369+00:00 kamesh systemd-logind[848]: The system will power off now!
+2026-05-27T15:23:54.981317+00:00 kamesh systemd-logind[848]: System is powering down.
+2026-05-27T15:23:54.997156+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-05-28T04:23:31.766378+00:00 kamesh systemd-logind[861]: New seat seat0.
+2026-05-28T04:23:31.766380+00:00 kamesh systemd-logind[861]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-28T04:23:31.766381+00:00 kamesh systemd-logind[861]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-28T04:23:31.766394+00:00 kamesh polkitd[840]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-28T04:23:31.766395+00:00 kamesh polkitd[840]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-28T04:23:31.766010+00:00 kamesh polkitd[840]: Finished loading, compiling and executing 16 rules
+2026-05-28T04:23:31.776831+00:00 kamesh polkitd[840]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-28T04:25:42.087546+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=124) by (uid=0)
+2026-05-28T04:25:42.118605+00:00 kamesh systemd-logind[861]: New session c1 of user gdm.
+2026-05-28T04:25:42.132838+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=124) by gdm(uid=0)
+2026-05-28T04:25:43.333023+00:00 kamesh polkitd[840]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T04:25:51.308661+00:00 kamesh gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-28T04:25:51.309125+00:00 kamesh gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-28T04:25:51.323225+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T04:25:51.340508+00:00 kamesh systemd-logind[861]: New session 2 of user ubuntu.
+2026-05-28T04:25:51.353965+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T04:25:51.477570+00:00 kamesh gdm-password]: gkr-pam: unlocked login keyring
+2026-05-28T04:25:51.671298+00:00 kamesh gnome-keyring-daemon[1758]: The Secret Service was already initialized
+2026-05-28T04:25:51.671501+00:00 kamesh gnome-keyring-daemon[1909]: discover_other_daemon: 1
+2026-05-28T04:25:51.671672+00:00 kamesh gnome-keyring-daemon[1758]: The PKCS#11 component was already initialized
+2026-05-28T04:25:51.671926+00:00 kamesh gnome-keyring-daemon[1911]: discover_other_daemon: 1
+2026-05-28T04:25:51.671963+00:00 kamesh gnome-keyring-daemon[1912]: discover_other_daemon: 1
+2026-05-28T04:25:52.515356+00:00 kamesh polkitd[840]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T04:25:53.056346+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-28T04:25:53.064338+00:00 kamesh systemd-logind[861]: Session c1 logged out. Waiting for processes to exit.
+2026-05-28T04:25:53.085015+00:00 kamesh systemd-logind[861]: Removed session c1.
+2026-05-28T04:25:53.085163+00:00 kamesh polkitd[840]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-28T04:26:03.225567+00:00 kamesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-28T04:35:01.355404+00:00 kamesh CRON[6635]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T04:35:01.359101+00:00 kamesh CRON[6635]: pam_unix(cron:session): session closed for user root
+2026-05-28T04:41:34.163979+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Downloads ; USER=root ; COMMAND=/usr/bin/dpkg -i splunk-10.4.0-f798d4d49089-linux-amd64.deb
+2026-05-28T04:41:34.166008+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T04:41:34.237190+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T04:45:01.391426+00:00 kamesh CRON[7671]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T04:45:01.397252+00:00 kamesh CRON[7671]: pam_unix(cron:session): session closed for user root
+2026-05-28T04:50:41.609436+00:00 kamesh systemd-logind[861]: The system will power off now!
+2026-05-28T04:50:41.637970+00:00 kamesh systemd-logind[861]: System is powering down.
+2026-05-28T04:50:41.659662+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-05-28T06:12:01.787491+00:00 kamesh systemd-logind[847]: New seat seat0.
+2026-05-28T06:12:01.787497+00:00 kamesh systemd-logind[847]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-28T06:12:01.787498+00:00 kamesh systemd-logind[847]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-28T06:12:01.817532+00:00 kamesh polkitd[835]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-28T06:12:01.818538+00:00 kamesh polkitd[835]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-28T06:12:01.841074+00:00 kamesh polkitd[835]: Finished loading, compiling and executing 16 rules
+2026-05-28T06:12:01.856295+00:00 kamesh polkitd[835]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-28T06:14:12.194628+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=124) by (uid=0)
+2026-05-28T06:14:12.221932+00:00 kamesh systemd-logind[847]: New session c1 of user gdm.
+2026-05-28T06:14:12.232236+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=124) by gdm(uid=0)
+2026-05-28T06:14:13.383989+00:00 kamesh polkitd[835]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T06:14:28.389446+00:00 kamesh gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-28T06:14:28.389832+00:00 kamesh gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-28T06:14:28.405183+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T06:14:28.412455+00:00 kamesh systemd-logind[847]: New session 2 of user ubuntu.
+2026-05-28T06:14:28.432356+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T06:14:28.540949+00:00 kamesh gdm-password]: gkr-pam: unlocked login keyring
+2026-05-28T06:14:28.702343+00:00 kamesh gnome-keyring-daemon[1700]: The Secret Service was already initialized
+2026-05-28T06:14:28.702516+00:00 kamesh gnome-keyring-daemon[1848]: discover_other_daemon: 1
+2026-05-28T06:14:28.702737+00:00 kamesh gnome-keyring-daemon[1700]: The PKCS#11 component was already initialized
+2026-05-28T06:14:28.702765+00:00 kamesh gnome-keyring-daemon[1849]: discover_other_daemon: 1
+2026-05-28T06:14:28.702775+00:00 kamesh gnome-keyring-daemon[1850]: discover_other_daemon: 1
+2026-05-28T06:14:29.425841+00:00 kamesh polkitd[835]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T06:14:30.056512+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-28T06:14:30.067919+00:00 kamesh systemd-logind[847]: Session c1 logged out. Waiting for processes to exit.
+2026-05-28T06:14:30.083042+00:00 kamesh systemd-logind[847]: Removed session c1.
+2026-05-28T06:14:30.083434+00:00 kamesh polkitd[835]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-28T06:14:40.213303+00:00 kamesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-28T06:15:01.519870+00:00 kamesh CRON[3977]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T06:15:01.521089+00:00 kamesh CRON[3977]: pam_unix(cron:session): session closed for user root
+2026-05-28T06:17:01.524774+00:00 kamesh CRON[4417]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T06:17:01.528112+00:00 kamesh CRON[4417]: pam_unix(cron:session): session closed for user root
+2026-05-28T06:25:01.561213+00:00 kamesh CRON[5265]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T06:25:01.562166+00:00 kamesh CRON[5266]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T06:25:01.564025+00:00 kamesh CRON[5265]: pam_unix(cron:session): session closed for user root
+2026-05-28T06:25:01.565014+00:00 kamesh CRON[5266]: pam_unix(cron:session): session closed for user root
+2026-05-28T06:27:43.583777+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt update
+2026-05-28T06:27:43.586427+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:27:51.345740+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:28:18.421138+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/apt install openssh-server -y
+2026-05-28T06:28:18.421901+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:28:18.925154+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:28:53.186426+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl enable ssh
+2026-05-28T06:28:53.186945+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:28:53.763395+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:29:17.277774+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+2026-05-28T06:29:17.277984+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:29:17.311874+00:00 kamesh sshd[6350]: Server listening on 0.0.0.0 port 22.
+2026-05-28T06:29:17.312058+00:00 kamesh sshd[6350]: Server listening on :: port 22.
+2026-05-28T06:29:17.313211+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:29:29.757974+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+2026-05-28T06:29:29.758496+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:31:16.547323+00:00 kamesh sshd[6419]: Invalid user fakeuser from 192.168.64.1 port 58624
+2026-05-28T06:31:27.712080+00:00 kamesh sshd[6419]: pam_unix(sshd:auth): check pass; user unknown
+2026-05-28T06:31:27.712441+00:00 kamesh sshd[6419]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.64.1 
+2026-05-28T06:31:29.399016+00:00 kamesh sshd[6419]: Failed password for invalid user fakeuser from 192.168.64.1 port 58624 ssh2
+2026-05-28T06:31:36.741359+00:00 kamesh sshd[6419]: pam_unix(sshd:auth): check pass; user unknown
+2026-05-28T06:31:38.660931+00:00 kamesh sshd[6419]: Failed password for invalid user fakeuser from 192.168.64.1 port 58624 ssh2
+2026-05-28T06:31:41.639541+00:00 kamesh sshd[6419]: pam_unix(sshd:auth): check pass; user unknown
+2026-05-28T06:31:43.246045+00:00 kamesh sshd[6419]: Failed password for invalid user fakeuser from 192.168.64.1 port 58624 ssh2
+2026-05-28T06:31:43.769780+00:00 kamesh sshd[6419]: Connection closed by invalid user fakeuser 192.168.64.1 port 58624 [preauth]
+2026-05-28T06:31:43.769986+00:00 kamesh sshd[6419]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.64.1 
+2026-05-28T06:32:51.579306+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:33:27.114368+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-05-28T06:33:27.114735+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:35:01.585275+00:00 kamesh CRON[6630]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T06:35:01.589527+00:00 kamesh CRON[6630]: pam_unix(cron:session): session closed for user root
+2026-05-28T06:35:11.599882+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:36:01.951843+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ubuntu/Desktop/
+2026-05-28T06:36:01.952027+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:36:01.956352+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:36:38.981130+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod 644 /home/ubuntu/Desktop/auth.log
+2026-05-28T06:36:38.981820+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:36:38.983348+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:45:01.615878+00:00 kamesh CRON[7426]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T06:45:01.618206+00:00 kamesh CRON[7426]: pam_unix(cron:session): session closed for user root
+2026-05-28T06:47:34.664457+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ubuntu/Desktop/auth_clean.log
+2026-05-28T06:47:34.665232+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:47:34.667401+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:48:04.224808+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/chmod 777 /home/ubuntu/Desktop/auth_clean.log
+2026-05-28T06:48:04.225185+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T06:48:04.227073+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T06:55:01.644038+00:00 kamesh CRON[8161]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T06:55:01.648103+00:00 kamesh CRON[8161]: pam_unix(cron:session): session closed for user root
+2026-05-28T06:57:21.885982+00:00 kamesh dbus-daemon[829]: [system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+2026-05-28T07:01:32.138502+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu/Desktop ; USER=root ; COMMAND=/usr/sbin/poweroff
+2026-05-28T07:01:32.139383+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T07:01:32.162330+00:00 kamesh systemd-logind[847]: The system will power off now!
+2026-05-28T07:01:32.169834+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T07:01:32.183307+00:00 kamesh systemd-logind[847]: System is powering down.
+2026-05-28T07:01:32.204550+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-05-28T07:06:47.341392+00:00 kamesh systemd-logind[859]: New seat seat0.
+2026-05-28T07:06:47.341393+00:00 kamesh systemd-logind[859]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-28T07:06:47.341395+00:00 kamesh systemd-logind[859]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-28T07:06:47.341409+00:00 kamesh polkitd[843]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-28T07:06:47.341411+00:00 kamesh polkitd[843]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-28T07:06:47.317545+00:00 kamesh polkitd[843]: Finished loading, compiling and executing 16 rules
+2026-05-28T07:06:47.332183+00:00 kamesh polkitd[843]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-28T07:08:47.390799+00:00 kamesh sshd[1170]: Server listening on 0.0.0.0 port 22.
+2026-05-28T07:08:47.390895+00:00 kamesh sshd[1170]: Server listening on :: port 22.
+2026-05-28T07:08:57.252271+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=124) by (uid=0)
+2026-05-28T07:08:57.289588+00:00 kamesh systemd-logind[859]: New session c1 of user gdm.
+2026-05-28T07:08:57.302005+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=124) by gdm(uid=0)
+2026-05-28T07:08:58.521014+00:00 kamesh polkitd[843]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T07:09:21.779821+00:00 kamesh gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-28T07:09:21.779968+00:00 kamesh gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-28T07:09:21.789881+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T07:09:21.809713+00:00 kamesh systemd-logind[859]: New session 2 of user ubuntu.
+2026-05-28T07:09:21.820431+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T07:09:21.940481+00:00 kamesh gdm-password]: gkr-pam: unlocked login keyring
+2026-05-28T07:09:22.159234+00:00 kamesh gnome-keyring-daemon[1711]: The Secret Service was already initialized
+2026-05-28T07:09:22.159558+00:00 kamesh gnome-keyring-daemon[1856]: discover_other_daemon: 1
+2026-05-28T07:09:22.159724+00:00 kamesh gnome-keyring-daemon[1711]: The PKCS#11 component was already initialized
+2026-05-28T07:09:22.159742+00:00 kamesh gnome-keyring-daemon[1860]: discover_other_daemon: 1
+2026-05-28T07:09:22.159759+00:00 kamesh gnome-keyring-daemon[1859]: discover_other_daemon: 1
+2026-05-28T07:09:23.086850+00:00 kamesh polkitd[843]: Registered Authentication Agent for unix-session:2 (system bus name :1.81 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T07:09:23.883990+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-28T07:09:23.894575+00:00 kamesh systemd-logind[859]: Session c1 logged out. Waiting for processes to exit.
+2026-05-28T07:09:23.921033+00:00 kamesh polkitd[843]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-28T07:09:23.924019+00:00 kamesh systemd-logind[859]: Removed session c1.
+2026-05-28T07:09:34.112205+00:00 kamesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-28T07:15:01.250834+00:00 kamesh CRON[3187]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T07:15:01.256938+00:00 kamesh CRON[3187]: pam_unix(cron:session): session closed for user root
+2026-05-28T07:15:29.772479+00:00 kamesh systemd-logind[859]: The system will power off now!
+2026-05-28T07:15:29.791668+00:00 kamesh systemd-logind[859]: System is powering down.
+2026-05-28T07:15:29.814510+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session closed for user ubuntu
+2026-05-28T13:26:58.992116+00:00 kamesh systemd-logind[859]: New seat seat0.
+2026-05-28T13:26:58.992121+00:00 kamesh systemd-logind[859]: Watching system buttons on /dev/input/event0 (Power Button)
+2026-05-28T13:26:58.992123+00:00 kamesh systemd-logind[859]: Watching system buttons on /dev/input/event3 (QEMU QEMU USB Keyboard)
+2026-05-28T13:26:58.992131+00:00 kamesh polkitd[837]: Loading rules from directory /etc/polkit-1/rules.d
+2026-05-28T13:26:58.992133+00:00 kamesh polkitd[837]: Loading rules from directory /usr/share/polkit-1/rules.d
+2026-05-28T13:26:59.009933+00:00 kamesh polkitd[837]: Finished loading, compiling and executing 16 rules
+2026-05-28T13:26:59.023393+00:00 kamesh polkitd[837]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+2026-05-28T13:28:58.132259+00:00 kamesh sshd[1160]: Server listening on 0.0.0.0 port 22.
+2026-05-28T13:28:58.141461+00:00 kamesh sshd[1160]: Server listening on :: port 22.
+2026-05-28T13:29:08.666553+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=124) by (uid=0)
+2026-05-28T13:29:08.694616+00:00 kamesh systemd-logind[859]: New session c1 of user gdm.
+2026-05-28T13:29:08.707183+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user gdm(uid=124) by gdm(uid=0)
+2026-05-28T13:29:09.981672+00:00 kamesh polkitd[837]: Registered Authentication Agent for unix-session:c1 (system bus name :1.40 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T13:29:20.828250+00:00 kamesh gdm-password]: gkr-pam: unable to locate daemon control file
+2026-05-28T13:29:20.828607+00:00 kamesh gdm-password]: gkr-pam: stashed password to try later in open session
+2026-05-28T13:29:20.844124+00:00 kamesh gdm-password]: pam_unix(gdm-password:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T13:29:20.860460+00:00 kamesh systemd-logind[859]: New session 2 of user ubuntu.
+2026-05-28T13:29:20.874202+00:00 kamesh (systemd): pam_unix(systemd-user:session): session opened for user ubuntu(uid=1000) by ubuntu(uid=0)
+2026-05-28T13:29:21.004516+00:00 kamesh gdm-password]: gkr-pam: unlocked login keyring
+2026-05-28T13:29:21.212514+00:00 kamesh gnome-keyring-daemon[1698]: The Secret Service was already initialized
+2026-05-28T13:29:21.212610+00:00 kamesh gnome-keyring-daemon[1698]: The PKCS#11 component was already initialized
+2026-05-28T13:29:21.213054+00:00 kamesh gnome-keyring-daemon[1848]: discover_other_daemon: 1
+2026-05-28T13:29:21.213164+00:00 kamesh gnome-keyring-daemon[1856]: discover_other_daemon: 1
+2026-05-28T13:29:21.213175+00:00 kamesh gnome-keyring-daemon[1855]: discover_other_daemon: 1
+2026-05-28T13:29:22.143333+00:00 kamesh polkitd[837]: Registered Authentication Agent for unix-session:2 (system bus name :1.80 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+2026-05-28T13:29:22.721497+00:00 kamesh gdm-launch-environment]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+2026-05-28T13:29:22.738512+00:00 kamesh systemd-logind[859]: Session c1 logged out. Waiting for processes to exit.
+2026-05-28T13:29:22.739633+00:00 kamesh polkitd[837]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.40, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+2026-05-28T13:29:22.743858+00:00 kamesh systemd-logind[859]: Removed session c1.
+2026-05-28T13:29:32.921466+00:00 kamesh (sd-pam): pam_unix(systemd-user:session): session closed for user gdm
+2026-05-28T13:30:01.045579+00:00 kamesh CRON[2609]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T13:30:01.050074+00:00 kamesh CRON[2609]: pam_unix(cron:session): session closed for user root
+2026-05-28T13:30:45.903942+00:00 kamesh sshd[2664]: Connection closed by 192.168.64.1 port 60535
+2026-05-28T13:32:47.286469+00:00 kamesh sshd[2685]: Connection closed by 192.168.64.1 port 61579
+2026-05-28T13:32:49.549015+00:00 kamesh sshd[2686]: Connection closed by 192.168.64.1 port 62575
+2026-05-28T13:32:49.666533+00:00 kamesh sshd[2687]: Connection closed by 192.168.64.1 port 62576
+2026-05-28T13:32:49.768067+00:00 kamesh sshd[2688]: Connection closed by 192.168.64.1 port 62577
+2026-05-28T13:32:49.864467+00:00 kamesh sshd[2689]: Connection closed by 192.168.64.1 port 62578
+2026-05-28T13:32:49.964152+00:00 kamesh sshd[2690]: Connection closed by 192.168.64.1 port 62579
+2026-05-28T13:32:50.066011+00:00 kamesh sshd[2691]: Connection closed by 192.168.64.1 port 62580
+2026-05-28T13:32:50.163634+00:00 kamesh sshd[2692]: Connection closed by 192.168.64.1 port 62581
+2026-05-28T13:32:50.264423+00:00 kamesh sshd[2693]: Connection closed by 192.168.64.1 port 62582
+2026-05-28T13:32:59.346355+00:00 kamesh sshd[2694]: Connection closed by 192.168.64.1 port 62584
+2026-05-28T13:32:59.440923+00:00 kamesh sshd[2695]: Connection closed by 192.168.64.1 port 62585
+2026-05-28T13:32:59.535675+00:00 kamesh sshd[2696]: Connection closed by 192.168.64.1 port 62586
+2026-05-28T13:32:59.637572+00:00 kamesh sshd[2697]: Connection closed by 192.168.64.1 port 62587
+2026-05-28T13:32:59.738107+00:00 kamesh sshd[2698]: Connection closed by 192.168.64.1 port 62588
+2026-05-28T13:32:59.840094+00:00 kamesh sshd[2699]: Connection closed by 192.168.64.1 port 62589
+2026-05-28T13:32:59.939857+00:00 kamesh sshd[2700]: Connection closed by 192.168.64.1 port 62590
+2026-05-28T13:33:01.768700+00:00 kamesh sshd[2701]: error: Protocol major versions differ: 2 vs. 1
+2026-05-28T13:33:01.768986+00:00 kamesh sshd[2701]: banner exchange: Connection from 192.168.64.1 port 62592: could not read protocol version
+2026-05-28T13:33:01.769228+00:00 kamesh sshd[2702]: error: Protocol major versions differ: 2 vs. 1
+2026-05-28T13:33:01.769301+00:00 kamesh sshd[2702]: banner exchange: Connection from 192.168.64.1 port 62593: could not read protocol version
+2026-05-28T13:33:02.071017+00:00 kamesh sshd[2703]: Unable to negotiate with 192.168.64.1 port 62594: no matching host key type found. Their offer: ssh-dss [preauth]
+2026-05-28T13:33:02.319136+00:00 kamesh sshd[2705]: Unable to negotiate with 192.168.64.1 port 62595: no matching host key type found. Their offer: ssh-rsa [preauth]
+2026-05-28T13:33:02.768220+00:00 kamesh sshd[2707]: Connection closed by 192.168.64.1 port 62596 [preauth]
+2026-05-28T13:33:02.917618+00:00 kamesh sshd[2709]: Unable to negotiate with 192.168.64.1 port 62597: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+2026-05-28T13:33:03.167628+00:00 kamesh sshd[2711]: Unable to negotiate with 192.168.64.1 port 62598: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+2026-05-28T13:33:03.614653+00:00 kamesh sshd[2713]: Connection closed by 192.168.64.1 port 62599 [preauth]
+2026-05-28T13:35:01.076324+00:00 kamesh CRON[2735]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T13:35:01.082942+00:00 kamesh CRON[2735]: pam_unix(cron:session): session closed for user root
+2026-05-28T13:35:15.444273+00:00 kamesh sshd[2738]: Connection closed by 192.168.64.1 port 62623
+2026-05-28T13:39:47.767585+00:00 kamesh sshd[2743]: Connection closed by 192.168.64.1 port 51363
+2026-05-28T13:41:37.175526+00:00 kamesh sshd[2749]: Connection closed by 192.168.64.1 port 52366
+2026-05-28T13:41:40.626507+00:00 kamesh sshd[2750]: Connection closed by 192.168.64.1 port 53391
+2026-05-28T13:41:43.053193+00:00 kamesh sshd[2751]: Connection closed by 192.168.64.1 port 54388
+2026-05-28T13:41:45.415847+00:00 kamesh sshd[2752]: Connection closed by 192.168.64.1 port 55386
+2026-05-28T13:41:47.770649+00:00 kamesh sshd[2753]: Connection closed by 192.168.64.1 port 56390
+2026-05-28T13:41:51.107188+00:00 kamesh sshd[2754]: Connection closed by 192.168.64.1 port 57389
+2026-05-28T13:41:54.402898+00:00 kamesh sshd[2755]: Connection closed by 192.168.64.1 port 58397
+2026-05-28T13:41:57.838067+00:00 kamesh sshd[2756]: Connection closed by 192.168.64.1 port 59395
+2026-05-28T13:42:00.160611+00:00 kamesh sshd[2760]: Connection closed by 192.168.64.1 port 60397
+2026-05-28T13:42:03.483394+00:00 kamesh sshd[2761]: Connection closed by 192.168.64.1 port 61456
+2026-05-28T13:43:53.031318+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-05-28T13:43:53.034113+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T13:44:10.312916+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T13:45:01.099383+00:00 kamesh CRON[2789]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2026-05-28T13:45:01.101304+00:00 kamesh CRON[2789]: pam_unix(cron:session): session closed for user root
+2026-05-28T13:45:23.485351+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+2026-05-28T13:45:23.487844+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
+2026-05-28T13:45:56.301481+00:00 kamesh sshd[2797]: Connection closed by 192.168.64.1 port 62454
+2026-05-28T13:45:58.444450+00:00 kamesh sshd[2798]: Connection closed by 192.168.64.1 port 63441
+2026-05-28T13:45:58.554708+00:00 kamesh sshd[2799]: Connection closed by 192.168.64.1 port 63442
+2026-05-28T13:45:58.652322+00:00 kamesh sshd[2800]: Connection closed by 192.168.64.1 port 63443
+2026-05-28T13:45:58.751580+00:00 kamesh sshd[2801]: Connection closed by 192.168.64.1 port 63444
+2026-05-28T13:45:58.851402+00:00 kamesh sshd[2802]: Connection closed by 192.168.64.1 port 63445
+2026-05-28T13:45:58.952662+00:00 kamesh sshd[2803]: Connection closed by 192.168.64.1 port 63446
+2026-05-28T13:45:59.053586+00:00 kamesh sshd[2804]: Connection closed by 192.168.64.1 port 63447
+2026-05-28T13:45:59.152707+00:00 kamesh sshd[2805]: Connection closed by 192.168.64.1 port 63448
+2026-05-28T13:46:08.239904+00:00 kamesh sshd[2806]: Connection closed by 192.168.64.1 port 63450
+2026-05-28T13:46:08.328759+00:00 kamesh sshd[2807]: Connection closed by 192.168.64.1 port 63451
+2026-05-28T13:46:08.426572+00:00 kamesh sshd[2808]: Connection closed by 192.168.64.1 port 63452
+2026-05-28T13:46:08.529943+00:00 kamesh sshd[2809]: Connection closed by 192.168.64.1 port 63453
+2026-05-28T13:46:08.628091+00:00 kamesh sshd[2810]: Connection closed by 192.168.64.1 port 63454
+2026-05-28T13:46:08.729543+00:00 kamesh sshd[2811]: Connection closed by 192.168.64.1 port 63455
+2026-05-28T13:46:08.829565+00:00 kamesh sshd[2812]: Connection closed by 192.168.64.1 port 63456
+2026-05-28T13:46:10.708622+00:00 kamesh sshd[2813]: error: Protocol major versions differ: 2 vs. 1
+2026-05-28T13:46:10.708876+00:00 kamesh sshd[2813]: banner exchange: Connection from 192.168.64.1 port 63458: could not read protocol version
+2026-05-28T13:46:10.708998+00:00 kamesh sshd[2814]: error: Protocol major versions differ: 2 vs. 1
+2026-05-28T13:46:10.709062+00:00 kamesh sshd[2814]: banner exchange: Connection from 192.168.64.1 port 63459: could not read protocol version
+2026-05-28T13:46:11.010633+00:00 kamesh sshd[2815]: Unable to negotiate with 192.168.64.1 port 63460: no matching host key type found. Their offer: ssh-dss [preauth]
+2026-05-28T13:46:11.263154+00:00 kamesh sshd[2817]: Unable to negotiate with 192.168.64.1 port 63461: no matching host key type found. Their offer: ssh-rsa [preauth]
+2026-05-28T13:46:11.710273+00:00 kamesh sshd[2819]: Connection closed by 192.168.64.1 port 63462 [preauth]
+2026-05-28T13:46:11.859462+00:00 kamesh sshd[2821]: Unable to negotiate with 192.168.64.1 port 63463: no matching host key type found. Their offer: ecdsa-sha2-nistp384 [preauth]
+2026-05-28T13:46:12.111310+00:00 kamesh sshd[2823]: Unable to negotiate with 192.168.64.1 port 63464: no matching host key type found. Their offer: ecdsa-sha2-nistp521 [preauth]
+2026-05-28T13:46:12.558444+00:00 kamesh sshd[2825]: Connection closed by 192.168.64.1 port 63465 [preauth]
+2026-05-28T13:47:14.438714+00:00 kamesh sudo: pam_unix(sudo:session): session closed for user root
+2026-05-28T13:48:05.833283+00:00 kamesh sudo:   ubuntu : TTY=pts/0 ; PWD=/home/ubuntu ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/ubuntu/Desktop/final_soc_logs.log
+2026-05-28T13:48:05.833483+00:00 kamesh sudo: pam_unix(sudo:session): session opened for user root(uid=0) by ubuntu(uid=1000)
